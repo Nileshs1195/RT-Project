@@ -1,0 +1,45 @@
+.item {
+    height: auto;
+    width: 260px;
+    background-color: rgb(238, 224, 224);
+    margin: 5px;
+    padding: 20px;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    background-color: rgb(124, 94, 94);
+    color: white;
+}
+
+.img {
+    width: 100%;
+    height: 260px;
+}
+
+.content {
+    margin-top: 5px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.fw {
+    font-weight: 500;
+}
+
+.mTop {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover,
+a:focus {
+    color: none;
+}
